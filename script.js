@@ -10,7 +10,7 @@ async function analyze() {
   result.innerHTML = "Analizowanie...";
 
   try {
-    const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDzthdMAFTGYCpJyBPY_WiGT41uYaq3gRE", {
+    const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDlT0R0X5ll27oY8HRcA9e-eI0gMtfhShw", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
